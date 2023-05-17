@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.showcase {
+    max-width: 100%;
+    height: 100vh;
+    background: url(./images/background.png) center/cover no-repeat;
+    position: relative;
+
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 3em;
+
+}
+
+.logo img {
+    width: 10em;
+}
+
+.navbar {
+    width: 60%;
+}
+
+.navbar ul {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: black;
+}
+
+.cart-icon {
+    width: 2em;
+}
+
+.collections {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    width: 10em;
+    height: 2.5em;
+    border: none;
+    border-radius: 0.3em;
+    background: linear-gradient(45deg, rgb(99, 204, 239), rgb(246, 121, 229));
+    margin-bottom: 1em;
+}
+
+.hero {
+    position: absolute;
+    top: 17em;
+    left: 11em;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    line-height: 1;
+    margin-bottom: 0.2em;
+}
+
+.hero p {
+    margin-bottom: 2em;
+}
+
+.back-arrow,
+.next-arrow {
+    width: 2em;
+    margin-right: 1em;
+}
+
+.feature-img {
+    max-width: 100%;
+    width: 50%;
+    position: absolute;
+    right: 3em;
+    bottom: 0;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10em;
+    left: -4em;
+    align-items: center;
+    transform: rotate(-90deg);
+}
+
+.social-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: black;
+}
